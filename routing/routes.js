@@ -7,7 +7,7 @@ router.use('/products', (req, res) => {
 });
 
 router.use('/', (req, res) => {
-    res.render('home', { data: '21512522' });
+    res.render('home');
 });
- 
+
 module.exports = router;
